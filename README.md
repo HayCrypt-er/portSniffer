@@ -34,7 +34,7 @@ The installer will automatically install required dependencies.
 Clone the repository:
 
 ```bash
-git clone https://github.com/HqyCrypt-er/portSniffer.git
+git clone https://github.com/HayCrypt-er/portSniffer.git
 cd portSniffer
 ```
 
