@@ -4,7 +4,7 @@ A lightweight port packet sniffer automation utility written in C.
 
 This tool acts as a wrapper around `arpspoof` to simplify authorized network testing workflows in controlled lab environments.
 
-**Author:** haycrypt
+**Author:** HayCrypt-er
 
 ---
 
@@ -34,8 +34,8 @@ The installer will automatically install required dependencies.
 Clone the repository:
 
 ```bash
-git clone https://github.com/haycrypt/portSniff.git
-cd portSniff
+git clone https://github.com/HqyCrypt-er/portSniffer.git
+cd portSniffer
 ```
 
 Run the installer:
@@ -55,13 +55,13 @@ This will:
 After installation:
 
 ```bash
-sudo portSniff -v <target_ip> -o <logs_directory> [-p <port (default 443)>]
+sudo portSniffer -v <target_ip> -o <logs_directory> [-p <port (default 443)>]
 ```
 
 Example:
 
 ```bash
-sudo portSniff -v 192.168.1.10 -o /home 
+sudo portSniffer -v 192.168.1.10 -o /home 
 ```
 
 ##  Legal Disclaimer

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bas fileh
 
 set -e
 
@@ -29,12 +29,12 @@ else
     exit 1
 fi
 
-echo "[*] Building tool from http_capture.c..."
-gcc -o portSniff http_capture.c -lpcap
+echo "[*] Building tool from c file..."
+gcc -o portSniffer portSniffer.c -lpcap
 
 echo "[*] Installing binary..."
-cp portSniff /usr/local/bin/
-chmod +x /usr/local/bin/portSniff
+cp portSniffer /usr/local/bin/
+chmod +x /usr/local/bin/portSniffer
 
 echo "[+] Installation complete."
-echo "You can now run: portSniff"
+echo "You can now run: portSniffer"
